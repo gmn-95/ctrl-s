@@ -4,6 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://gmn-95.github.io',
+	base: '/ctrl-s',
 	integrations: [
 		starlight({
 			title: 'Ctrl+S',

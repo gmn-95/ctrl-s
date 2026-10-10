@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="450" viewBox="0 0 1120 450" role="img" aria-labelledby="title desc">
+  <title id="title">Arquitetura do projeto final: API e PostgreSQL</title>
+  <desc id="desc">Um cliente acessa a API HTTP publicada pelo Docker Compose. A API se conecta ao PostgreSQL usando o nome de serviço db, que grava os dados num volume persistente.</desc>
+  <defs>
+    <style>.bg{fill:#f8fafc}.heading{fill:#0f172a;font:700 20px DejaVu Sans,Arial,sans-serif}.sub{fill:#475569;font:15px DejaVu Sans,Arial,sans-serif}.tiny{fill:#64748b;font:14px DejaVu Sans,Arial,sans-serif}.arr{stroke:#64748b;stroke-width:3;fill:none}</style>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto"><path d="M0 0 L6 3 L0 6" fill="none" stroke="#64748b" stroke-width="2"/></marker>
+  </defs>
+  <rect class="bg" x="1" y="1" width="1118" height="448" rx="18" stroke="#dce4ec" stroke-width="2"/>
+  <text x="40" y="45" class="heading">Projeto final: API + PostgreSQL com Docker Compose</text>
+  <rect x="40" y="147" width="195" height="120" rx="14" fill="#ecfeff" stroke="#67e8f9" stroke-width="2"/>
+  <text x="137" y="187" class="heading" text-anchor="middle">Cliente HTTP</text>
+  <text x="137" y="215" class="sub" text-anchor="middle">curl / Postman</text>
+  <text x="137" y="239" class="tiny" text-anchor="middle">localhost:8080</text>
+  <path class="arr" d="M242 207 H331" marker-end="url(#arrow)"/>
+  <text x="287" y="185" class="tiny" text-anchor="middle">HTTP</text>
+  <rect x="344" y="102" width="730" height="304" rx="18" fill="#f1f5f9" stroke="#94a3b8" stroke-dasharray="9 6" stroke-width="2"/>
+  <text x="371" y="135" class="sub">Docker Compose · rede interna</text>
+  <rect x="376" y="165" width="265" height="122" rx="14" fill="#dbeafe" stroke="#93c5fd" stroke-width="2"/>
+  <text x="508" y="207" class="heading" text-anchor="middle">API backend</text>
+  <text x="508" y="237" class="sub" text-anchor="middle">Dockerfile multi-stage</text>
+  <text x="508" y="261" class="tiny" text-anchor="middle">CRUD de tarefas</text>
+  <path class="arr" d="M648 222 H718" marker-end="url(#arrow)"/>
+  <text x="683" y="198" class="tiny" text-anchor="middle">db:5432</text>
+  <rect x="733" y="165" width="303" height="122" rx="14" fill="#ccfbf1" stroke="#5eead4" stroke-width="2"/>
+  <text x="884" y="208" class="heading" text-anchor="middle">PostgreSQL</text>
+  <text x="884" y="238" class="sub" text-anchor="middle">Serviço: db</text>
+  <text x="884" y="260" class="tiny" text-anchor="middle">Healthcheck</text>
+  <path class="arr" d="M884 294 V321" marker-end="url(#arrow)"/>
+  <rect x="725" y="335" width="320" height="52" rx="12" fill="#0f172a"/>
+  <text x="885" y="368" text-anchor="middle" style="fill:#fff;font:700 17px DejaVu Sans,Arial,sans-serif">Named volume · dados persistentes</text>
+  <text x="40" y="338" class="sub">Mesmo recriando os containers,</text>
+  <text x="40" y="362" class="sub">o volume mantém os registros.</text>
+</svg>

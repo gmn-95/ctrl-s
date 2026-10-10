@@ -1,0 +1,21 @@
+# Dependências
+node_modules/
+
+# Saída e cache do Astro
+dist/
+.astro/
+
+# Arquivos de ambiente (mantenha apenas exemplos versionados)
+.env
+.env.*
+!.env.example
+
+# Logs e relatórios locais
+*.log
+coverage/
+
+# Arquivos de sistema e editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

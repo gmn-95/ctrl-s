@@ -1,0 +1,25 @@
+---
+title: Bem-vindo ao Ctrl+S
+description: Site para salvar o que sei, e o que estou aprendendo.
+hero:
+  tagline: Anotações sobre tecnologias que conheço e estou aprendendo.
+---
+
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## Melhores assuntos
+
+---
+
+<CardGrid stagger>
+	<LinkCard
+		title="Docker"
+		description="Containers, imagens, Docker Engine e conceitos relacionados."
+		href="./devops/docker/o-que-e-docker/"
+	/>
+	<LinkCard
+		title="Linux"
+		description="Daemons, systemd e outros conceitos que aparecem no dia a dia."
+		href="./linux/"
+	/>
+</CardGrid>

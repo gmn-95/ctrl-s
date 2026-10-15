@@ -9,6 +9,13 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Ctrl+S',
+			social: [
+				{
+					icon: 'github',
+					label: 'GitHub',
+					href: 'https://github.com/gmn-95',
+				},
+			],
 			logo: {
 				src: './src/assets/logo/Logo.png',
 				alt: 'Ctrl+S',

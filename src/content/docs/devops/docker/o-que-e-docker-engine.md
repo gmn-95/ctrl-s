@@ -22,7 +22,6 @@ O Docker Engine é a parte do Docker que recebe comandos e transforma essa inten
 3. O `dockerd`, que já está em execução, recebe a solicitação.
 4. O daemon coordena a criação e a inicialização do container com os componentes internos necessários.
 
-![Diagrama conceitual do caminho entre a Docker CLI, o Docker Engine e o kernel Linux](../../../../assets/docker/arquitetura-docker.svg)
 
 ## Veja também
 

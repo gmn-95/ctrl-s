@@ -9,7 +9,9 @@ Docker é uma plataforma para criar, distribuir e executar aplicações em **con
 
 Para mim, Docker resolve principalmente o problema do “na minha máquina funciona”: em vez de cada pessoa preparar o ambiente do zero, a aplicação pode rodar a partir da mesma imagem.
 
-> **Nota de estudo:** esta página é o ponto de partida. Conforme eu praticar mais, vou complementar as páginas abaixo com exemplos.
+# Fluxo do docker
+
+![fluxo do docker](../../../../assets/docker/fluxo-docker.png)
 
 ## Por onde continuar?
 

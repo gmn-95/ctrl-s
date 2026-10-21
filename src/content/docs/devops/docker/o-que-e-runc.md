@@ -2,7 +2,7 @@
 title: O que é runc?
 description: Minha explicação sobre o que é runc e seu uso
 sidebar:
-    order: 7
+    order: 8
 ---
 
 É uma ferramenta de baixo nível responsável por **criar e iniciar os containers** linux utilizando as funcionalidades do próprio kernel. É um dos componentes responsável por transformar a configuração de um container em um processo **realmente executado e isolado** pelo linux.

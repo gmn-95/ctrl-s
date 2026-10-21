@@ -2,7 +2,7 @@
 title: Isolamento de processos e filesystem
 description: Compartilhar um recurso não significa necessáriamente possuir a mesma visão ou as mesmas permissões sobre ele.
 sidebar:
-    order: 9
+    order: 10
 ---
 
 Um container possui isolamento de determinados recursos, mas continua fazendo chaamdas de sistema ao kernel do host.

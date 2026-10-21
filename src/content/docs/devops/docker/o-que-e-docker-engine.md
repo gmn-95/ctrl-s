@@ -2,7 +2,7 @@
 title: O que é o Docker Engine?
 description: Minha explicação sobre a parte do Docker que recebe comandos e gerencia containers.
 sidebar:
-    order: 4
+    order: 6
 ---
 
 O Docker Engine é a parte do Docker que recebe comandos e transforma essa intenção em containers rodando. Ele funciona como uma arquitetura cliente-servidor e reúne:

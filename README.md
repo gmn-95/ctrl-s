@@ -6,3 +6,5 @@ pergunta real — sem a pretensão de ser uma documentação formal ou completa.
 
 O site é construído com [Astro](https://astro.build/) e
 [Starlight](https://starlight.astro.build/) e será publicado no GitHub Pages.
+
+site: https://gmn-95.github.io/ctrl-s/

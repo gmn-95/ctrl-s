@@ -2,7 +2,7 @@
 title: Qual é a diferença entre containers e máquinas virtuais?
 description: Minha comparação inicial entre containers Linux e máquinas virtuais.
 sidebar:
-    order: 6
+    order: 8
 ---
 
 Não são a mesma coisa. Uma máquina virtual (VM) virtualiza hardware para executar um sistema operacional convidado, com kernel próprio. Um hypervisor distribui os recursos físicos da máquina entre as VMs.

@@ -1,7 +1,7 @@
 ---
 title: O que é PID 1 dentro de um container?
 sidebar:
-    order: 8
+    order: 11
 ---
 
 PID significa **Process ID**, em ambientes linux, cada processo tem um identificador. O kernel utiliza esse identificador para distringuir e gerenciar processos.

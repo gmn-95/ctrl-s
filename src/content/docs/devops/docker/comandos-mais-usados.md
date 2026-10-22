@@ -2,7 +2,7 @@
 title: Quais são os comandos Docker mais usados?
 description: Uma referência prática com comandos Docker, explicações curtas, exemplos e templates para copiar.
 sidebar:
-    order: 2
+    order: 4
 ---
 
 Esta é uma cola para o dia a dia. Os exemplos usam nomes como `meu-app` e

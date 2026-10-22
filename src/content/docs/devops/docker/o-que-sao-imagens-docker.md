@@ -2,7 +2,7 @@
 title: O que são imagens Docker?
 description: Minha explicação sobre o modelo usado para criar containers.
 sidebar:
-    order: 4
+    order: 3
 ---
 
 Uma imagem é o modelo usado para criar containers. Ela reúne os arquivos, binários, bibliotecas e configurações necessários para a aplicação rodar.

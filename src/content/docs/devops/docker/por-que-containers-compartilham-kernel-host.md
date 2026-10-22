@@ -2,7 +2,7 @@
 title: Por que containers Linux compartilham o kernel do host?
 description: Minha explicação sobre como containers usam o kernel do sistema hospedeiro.
 sidebar:
-    order: 5
+    order: 6
 ---
 
 Um container não traz um kernel próprio. Os programas dentro dele fazem chamadas de sistema que são atendidas pelo kernel Linux da máquina hospedeira. A imagem entrega os arquivos e configurações da aplicação; o kernel do host fornece as funcionalidades do sistema operacional.

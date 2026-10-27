@@ -14,3 +14,7 @@ description: Fontes que usei como base para as minhas anotações sobre Docker.
 - [Docker — Storage drivers e copy-on-write](https://docs.docker.com/engine/storage/drivers/)
 - [Docker CLI — docker image history](https://docs.docker.com/reference/cli/docker/image/history/)
 - [Docker CLI — docker image inspect](https://docs.docker.com/reference/cli/docker/image/inspect/)
+- [Writing a Dockerfile](https://docs.docker.com/get-started/docker-concepts/building-images/writing-a-dockerfile/)
+- [Dockerfile reference](https://docs.docker.com/reference/dockerfile/)
+- [Build context](https://docs.docker.com/build/concepts/context/)
+- [Docker build cache](https://docs.docker.com/build/cache)

@@ -329,9 +329,4 @@ docker stats <container>
 
 ## Referências
 
-- [Referência oficial da CLI Docker](https://docs.docker.com/reference/cli/docker/)
-- [`docker run`](https://docs.docker.com/reference/cli/docker/container/run/)
-- [`docker exec`](https://docs.docker.com/reference/cli/docker/container/exec/)
-- [Docker Compose](https://docs.docker.com/reference/cli/docker/compose/)
-- [`docker compose up`](https://docs.docker.com/reference/cli/docker/compose/up/)
-- [`docker compose down`](https://docs.docker.com/reference/cli/docker/compose/down/)
+- [Fontes usadas para esta página](../../../referencias/docker/)

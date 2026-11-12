@@ -34,7 +34,7 @@ O dockerfile é usado para criar a imagem, e não toda vez que o container é in
 | `FROM` | Define a imagem base | Build |
 | `WORKDIR` | Define o diretório de trabalho | Build e configuração da execução |
 | `COPY` | Copia arquivos para a imagem | Build |
-| `RUN` | Executa comandos portas utilizadas pela aplicação | Configuração da imagem |
+| `RUN` | Executa comandos nas portas utilizadas pela aplicação | Configuração da imagem |
 | `EXPOSE` | Documenta portas utilizadas pela aplicação | Configuração da imagem |
 | `CMD` | Define o comando padrão do container | Execução do container |
 
